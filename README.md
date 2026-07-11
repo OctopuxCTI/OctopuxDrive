@@ -43,10 +43,9 @@ Certifique-se de ter instalado em sua máquina:
 Siga os passos abaixo para iniciar o seu próprio servidor na nuvem localmente:
 
 1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/OctopuxCTI/OctopuxDrive.git](https://github.com/OctopuxCTI/OctopuxDrive.git)
-   cd OctopuxDrive
-
+```bash
+git clone [https://github.com/OctopuxCTI/OctopuxDrive.git](https://github.com/OctopuxCTI/OctopuxDrive.git)
+cd OctopuxDrive
 ```
 
 2. **Crie um ambiente virtual (Opcional, mas recomendado):**
@@ -54,21 +53,18 @@ Siga os passos abaixo para iniciar o seu próprio servidor na nuvem localmente:
 python -m venv venv
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
-
 ```
 
 
 3. **Instale as dependências:**
 ```bash
 pip install flask werkzeug
-
 ```
 
 
 4. **Inicie o servidor:**
 ```bash
 python app.py
-
 ```
 
 
@@ -102,7 +98,6 @@ Se você quiser alterar este limite, modifique a linha abaixo no `app.py`:
 
 ```python
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024 * 1024  # 5 GB
-
 ```
 
 ## 🤝 Como Contribuir
