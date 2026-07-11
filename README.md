@@ -2,7 +2,7 @@
 
 > Um servidor de armazenamento de arquivos robusto, minimalista e self-hosted, construído em Python (Flask) e JavaScript.
 
-[![Licença](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Licença](https://img.shields.io/badge/License-APACHE-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Framework-Flask-green)](https://flask.palletsprojects.com/)
 
